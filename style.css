@@ -1,0 +1,578 @@
+ 
+body {
+    background-color: #dcd8df;
+    font-family: Arial;
+    margin: 0;
+}
+
+h1 {
+    background-color: #dcd8df;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #302f31;
+    padding: 20px;
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #353436;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+
+.menu {
+    text-align: center;
+     background-color: #2e2c2e;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    color: #f7f1f1;
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #1a1919;
+    background-color: #d1d1dd;
+}
+
+h2 {
+    color: #404041;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+    background-color: #b1adb9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #2f2f31;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.content:hover {
+    border: 2px solid #232356;
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: #d4c7d4;
+    color: #2e2c30;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #313032;
+    animation: bounce 0.5s ease;
+}
+
+.side {
+    background-color: #555358;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #a3a3a3;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    border: 2px solid #272726;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #3d3b3e;
+    background-color: #bbb5c4;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    animation: bounce 0.5s ease;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid #353538;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #121112;
+    background-color: #d0cad5;
+    text-align: center;
+}
+
+.p {
+    color: #59575b;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* BOUNCE ANIMATION */
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-8px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-4px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* MUSIC CARD */
+.song {
+    background-color: #b1adb9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #2f2f31;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.song:hover {
+    animation: bounce 0.6s ease;
+    border: 2px solid #232356;
+}
+
+/* SONG TITLE */
+.song h3:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* COMMENTS */
+.song .comment {
+    background-color: #dcd8df;
+    color: #353436;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.song .comment:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* COMMENT TITLE */
+.song h4:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* BUTTON */
+.song button:hover {
+    animation: bounce 0.5s ease;
+    background-color: #f3effa;
+}
+
+/* TEXTAREA */
+.song textarea:focus {
+    border: 2px solid #555358;
+    outline: none;
+}
+
+/* BOUNCE ANIMATION */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-8px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-4px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+p{
+    text-align: center;
+}
+
+
+/* QUOTE CARD */
+.quote {
+    background-color: #b1adb9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #2f2f31;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.quote:hover {
+    animation: bounce 0.6s ease;
+    border: 2px solid #232356;
+}
+
+/* QUOTE TITLE */
+.quote h3:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* PICTURE PLACEHOLDER */
+.quote h4:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* COMMENTS */
+.comment {
+    background-color: #dcd8df;
+    color: #353436;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.comment:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* BUTTON */
+.quote button:hover {
+    animation: bounce 0.5s ease;
+    background-color: #f3effa;
+}
+
+/* TEXTAREA */
+.quote textarea:focus {
+    border: 2px solid #555358;
+    outline: none;
+}
+
+
+/* GAME POSTS */
+.game-post {
+    background-color: #b1adb9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #2f2f31;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.game-post:hover {
+    animation: bounce 0.6s ease;
+    border: 2px solid #232356;
+}
+
+/* GAME TITLE */
+.game-post h3:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* GAME PICTURE */
+.game-post h4 {
+    background-color: #dcd8df;
+    color: #404041;
+    text-align: center;
+    padding: 40px;
+    border: 2px dashed #555358;
+    border-radius: 10px;
+}
+
+.game-post h4:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* COMMENTS */
+.game-post .comment {
+    background-color: #dcd8df;
+    color: #353436;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.game-post .comment:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* POST INFORMATION */
+.post-info {
+    color: #65616b;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* BUTTONS */
+.game-post button:hover {
+    animation: bounce 0.5s ease;
+    background-color: #f3effa;
+}
+
+/* TEXTAREA */
+.game-post textarea:focus {
+    border: 2px solid #555358;
+    outline: none;
+}
+
+
+/* FUNNY MOMENTS */
+.funny-post {
+    background-color: #b1adb9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #2f2f31;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.funny-post:hover {
+    animation: bounce 0.6s ease;
+    border: 2px solid #232356;
+}
+
+/* FUNNY TITLES */
+.funny-post h3:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* FUNNY PICTURES */
+.funny-post h4:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* FUNNY COMMENTS */
+.funny-post .comment:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* FUNNY BUTTONS */
+.funny-post button:hover {
+    animation: bounce 0.5s ease;
+}
+
+.back-top {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #f7f1f1;
+    background-color: #2e2c2e;
+    border: 2px solid #353436;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.back-top:hover {
+    background-color: #d1d1dd;
+    color: #1a1919;
+    animation: bounce 0.5s ease;
+}
+
+
+/* CATEGORY CONTAINER */
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 100px;
+}
+
+/* CATEGORY BOXES */
+
+.category-box {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+
+    background-color: #b1adb9;
+    color: #302f31;
+
+    border: 2px solid #2f2f31;
+    border-radius: 20px;
+
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    text-decoration: none;
+    padding: 20px;
+
+    transition: 0.3s ease;
+}
+
+/* CATEGORY HOVER */
+
+.category-box:hover {
+    background-color: #d4c7d4;
+    color: #302f31;
+    transform: translateY(-5px);
+    animation: bounce 0.5s ease;
+}
+
+
+
+/* JAVASCRIPT INTERACTIVE FEATURES */
+
+/* CATEGORY BOXES */
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+    
+}
+
+.category-box {
+    background-color: #b1adb9;
+    color: #302f31;
+    border: 1px solid #2f2f31;
+    border-radius: 50px;
+    padding: 50px 100px;
+    width: 100px;
+    text-align: center;
+    font-family: Arial;
+    transition: 0.3s ease;
+}
+
+.category-box:hover {
+    background-color: #d4c7d4;
+    transform: translateY(-5px);
+    animation: bounce 0.5s ease;
+}
+
+/* CLICKABLE COMMUNITY CARDS */
+.content {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.content:hover {
+    border: 2px solid #232356;
+    transform: translateY(-5px);
+    animation: bounce 0.5s ease;
+}
+
+/* NEW CATEGORY POSTS */
+.tiktok-post,
+.makeup-post,
+.kpop-post,
+.animal-post,
+.outfit-post,
+.food-post {
+    background-color: #b1adb9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #2f2f31;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.tiktok-post:hover,
+.makeup-post:hover,
+.kpop-post:hover,
+.animal-post:hover,
+.outfit-post:hover,
+.food-post:hover {
+    animation: bounce 0.6s ease;
+    border: 2px solid #232356;
+}
+
+/* POST PICTURE PLACEHOLDER */
+.tiktok-post h4,
+.makeup-post h4,
+.kpop-post h4,
+.animal-post h4,
+.outfit-post h4,
+.food-post h4 {
+    background-color: #dcd8df;
+    color: #404041;
+    text-align: center;
+    padding: 40px;
+    border: 2px dashed #555358;
+    border-radius: 10px;
+}
+
+/* SEARCH BAR */
+input:focus {
+    outline: none;
+    border: 2px solid #555358;
+}
+
+/* TEXTAREA */
+textarea {
+    display: block;
+    width: 90%;
+    min-height: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #353436;
+    border-radius: 10px;
+    font-family: Arial;
+    resize: vertical;
+}
+
+/* NEW COMMENTS */
+.comment {
+    animation: bounce 0.5s ease;
+    overflow-wrap: anywhere;
+}
+
+/* BUTTON INTERACTION */
+button:active {
+    transform: scale(0.95);
+}
+
+/* POST BUTTON HOVER */
+.tiktok-post button:hover,
+.makeup-post button:hover,
+.kpop-post button:hover,
+.animal-post button:hover,
+.outfit-post button:hover,
+.food-post button:hover {
+    animation: bounce 0.5s ease;
+    background-color: #f3effa;
+}
